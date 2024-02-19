@@ -13,4 +13,4 @@ problem = cp.Problem(objective, constraints)
 problem.solve(solver=cp.SCIP)
 
 print("x = ", x.value)
-print("c'x = ", problem.value)
+print("f(x) = ", problem.value)
